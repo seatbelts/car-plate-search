@@ -15,7 +15,7 @@ mat = raw_input('Matricula: ')
 
 cs.send(mat)
 
-while 1:
+while True:
 
     data = cs.recv(1024)
     print ' ' + data + ' '
