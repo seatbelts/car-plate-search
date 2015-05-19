@@ -16,7 +16,7 @@ with db:
 
 	cur.execute('SELECT * FROM NuevoLeon')
 
-	#Search for all the elements in the DB
+	##Search for all the elements in the DB
 	for x in range(cur.rowcount):
 		row = cur.fetchone()
 		if mat in row[0]:
