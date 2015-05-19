@@ -1,10 +1,10 @@
 import MySQLdb as mysql
 
-db = mysql.connect('localhost', 'root', 'root', 'matriculas')
+db = mysql.connect('localhost', 'root', 'root', 'yourdb')
 
 cursor = db.cursor()
 
-sql = '''CREATE TABLE Jalisco (
+sql = '''CREATE TABLE YourTableName (
 	 NUMERO CHAR(20) NOT NULL,
 	 NOMBRE CHAR(20) NOT NULL,
 	 APELLIDO CHAR(20),
