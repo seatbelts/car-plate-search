@@ -1,6 +1,6 @@
 import socket
 
-host = 'localhost'
+host = "localhost"
 port = 5000
 
 ss = socket.socket()
