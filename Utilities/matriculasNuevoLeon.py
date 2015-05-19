@@ -10,7 +10,7 @@ cursor = db.cursor()
 #	 NOMBRE CHAR(20) NOT NULL,
 #	 APELLIDO CHAR(20),
 #	 CIUDAD CHAR(20),
-#	 ESTADO CHAR(20) )"""
+##	 ESTADO CHAR(20) )"""
 
 inicios = ['SAA', 'SAB', 'SAC', 'SAD', 'SAE', 'SAF']
 ciudades = ['Monterrey', 'Guadalupe', 'San Nicolas', 'San Pedro']
